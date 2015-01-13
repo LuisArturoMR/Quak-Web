@@ -1,0 +1,105 @@
+@font-face {
+    font-family: calibriLight;
+    src: url(../fonts/CalibriL.ttf);
+}
+@font-face {
+    font-family: calibriLightItalic;
+    src: url('../fonts/CalibriLI.ttf');
+}
+@font-face {
+    font-family: corbel;
+    src: url('../fonts/Corbel_11902.ttf');
+}
+
+html{
+	background-image: url(../images/fondo.jpg);
+	font-size: 16px;
+  	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: absolute;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.container{
+	width: 100%
+}
+.logo{
+	margin-top: 5em;
+	text-align: center;
+}
+.logo img{
+	width: 13%;
+	margin-top: 1em;
+	padding-left: 2em;
+	position: relative;
+
+}
+.pronto{
+	color: white;
+	font-size: 1.5em;
+	/*font-weight: inherit;*/
+	word-spacing: 0.2em;
+	/*font-style: italic;*/
+	font-family: 'calibriLightItalic', sans-serif;
+}
+.descripcion{
+	font-family: 'calibriLight', sans-serif;
+	color: white;	
+	font-size: 4em;
+	margin-top: 0.5em;
+	text-align: center;
+	margin-left: 0.5em;
+}
+.stores{
+	margin-top: 3em;
+	text-align: center;
+	/*bottom: 10%;*/
+	/*position: absolute;*/
+	
+}
+.iconos{
+	margin-top: 1em;
+}
+.ios{
+	display: inline-block;
+	margin-right: 0.5em;
+
+}
+.ios img{
+	width: 50%;
+}
+
+.android{
+	display: inline-block;
+	margin-right: 1em;
+}
+.android img{
+	width: 50%;
+}
+.wp{
+	display: inline-block;
+	margin-right: 1em;
+
+}
+.wp img{
+	width:50%;
+}
+.black{
+	font-weight: bold;
+}
+.yellow{
+	color: #F3E600;
+	font-family: 'corbel', sans-serif;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	
+}
